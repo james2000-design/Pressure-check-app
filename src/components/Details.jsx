@@ -32,15 +32,15 @@ const Details = () => {
           }
         );
 
-        const patientsArray = Object.values(response.data);
-        setPatients(patientsArray);
-        if (patientsArray.length > 0) {
-          const defaultValue = patientsArray[3];
+        const data = response.data;
+        setPatients(data);
+        if (data.length > 0) {
+          const defaultValue = data[3];
           setSelectedPatient(defaultValue);
           setChartData(defaultValue?.diagnosis_history);
         }
         // console.log(selectedPatient);
-        console.log(patientsArray);
+        console.log(data);
       } catch (error) {
         console.error("Error fetching patients: ", error);
       }
