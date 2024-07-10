@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    font-family:Manope;
+    overflow: hidden; 
+}
+
+.App{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 0;
+    
+}
+

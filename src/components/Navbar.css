@@ -1,0 +1,88 @@
+
+.content{
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+@media (max-width:768px) and (min-width: 320px) {
+    .content{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+}
+
+.logo{
+    margin-left: 8px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+
+}
+
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    
+}
+.item{
+    margin-left: 8px;
+}
+
+.patient{
+    background-color: #01F0D0;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+.end{
+    width: 25%;
+}
+.doctor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.person{
+    display: flex;
+    align-items: center;
+}
+.profile{
+    margin-left: 4px;
+}
+.doctor-name{
+    font-weight: bold;
+}
+
+
+.line{
+    width: 2px;
+    height: 35px;
+    background-color: rgb(161, 157, 157);
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.vertical-dots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dot {
+    width: 4px;
+    height: 4px;
+    background-color: rgb(28, 27, 27);
+    border-radius: 50%;
+    margin: 2px 0; /* Space between the dots */
+  }

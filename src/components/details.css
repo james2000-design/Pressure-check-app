@@ -1,0 +1,228 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.patients {
+  width: 25%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  height: 590px;
+  overflow-y: scroll;
+}
+.patients::-webkit-scrollbar {
+  color: #0c0707;
+  width: 2px;
+}
+
+.patients::-webkit-scrollbar-thumb {
+  /* background-color: #0c0707;  */
+  border-radius: 4px;
+}
+
+.top {
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+  margin-top: 20px;
+}
+.top1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dots {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.dott {
+  width: 4px;
+  height: 4px;
+  background-color: rgb(28, 27, 27);
+  border-radius: 50%;
+  margin: 0 2px; /* Space between the dots */
+}
+
+.cover {
+  width: 20%;
+}
+
+.chart {
+  height: 100px;
+  width: 40%;
+  margin: 0px 10px;
+}
+.linechart {
+  background-color: #f4f0fe;
+  border-radius: 20px;
+  padding: 10px;
+}
+.container {
+  margin: 2px 2px 2px 4px;
+}
+.graph {
+  background-color: white;
+  padding: 5px 10px 10px 10px;
+  border-radius: 20px;
+}
+
+.tittle {
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-size: large;
+  font-weight: bold;
+}
+.readings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.respiratory {
+  width: 25%;
+  border-radius: 20px;
+  background-color: #e0f3fa;
+  padding: 10px;
+}
+.temp {
+  width: 25%;
+  border-radius: 20px;
+  background-color: #ffe6e9;
+  padding: 10px;
+}
+.heart {
+  border-radius: 20px;
+  width: 25%;
+  background-color: #ffe6f1;
+  padding: 10px;
+}
+.below {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: small;
+}
+
+.dcontainer {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 5px 10px 10px 10px;
+  height: 90px;
+  overflow-y: scroll;
+}
+.dcontainer::-webkit-scrollbar {
+  width: 4px;
+}
+
+.dcontainer::-webkit-scrollbar-thumb {
+  background-color: #0c0707;
+  border-radius: 4px;
+}
+.dcontainer::-webkit-scrollbar-thumb:hover {
+  background-color: #0c0707;
+}
+.dList {
+  margin-bottom: 10px;
+  padding: 4px;
+  margin-top: 5px;
+  font-size: large;
+  font-weight: bold;
+}
+.ditems {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+.Itemlist {
+  display: flex;
+  justify-content: space-between;
+
+  text-align: left;
+  margin: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+  font-size: small;
+}
+
+.lastcont {
+  width: 25%;
+}
+.Profilecontent {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 10px 2px 10px;
+}
+.pic {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.pic2 {
+  text-align: center;
+}
+.Nom {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  justify-self: center;
+  margin-top: 1rem;
+}
+.persons {
+  margin-bottom: 10px;
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  justify-content: center;
+  display: flex;
+  margin: 2rem 0px;
+}
+.btn button {
+  background-color: #01f0d0;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+}
+
+.closing {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 10px 2px 10px;
+  height: 80px;
+  overflow-y: scroll;
+  margin-top: 10px;
+}
+.closing::-webkit-scrollbar {
+  width: 4px;
+  height: 2px;
+}
+
+.closing::-webkit-scrollbar-thumb {
+  background-color: #0c0707;
+  border-radius: 4px;
+}
+.result {
+  font-size: large;
+  font-weight: bold;
+}
+.Dlisting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
