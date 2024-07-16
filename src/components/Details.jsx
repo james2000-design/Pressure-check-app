@@ -46,7 +46,7 @@ const Details = () => {
       }
     };
     fetchPatients();
-  }, []);
+  }, []);     
 
   const handlePatientClick = (patient) => {
     setSelectedPatient(patient);
